@@ -585,3 +585,21 @@ a:focus-visible {
 
 /* Rich technical case study */
 .case-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:30px 0 12px}.case-stats div{padding:19px;background:#f8edf2;border:1px solid var(--line);border-radius:12px;display:flex;flex-direction:column;gap:6px}.case-stats strong{font-size:clamp(23px,3vw,36px);color:#a9446c}.case-stats span,.case-footnote{font-size:12px!important;color:var(--muted)!important;line-height:1.6!important}.case-figure{margin:25px 0 34px}.case-figure a{display:block;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#f5e7ee}.case-figure img{display:block;width:100%;height:auto;max-height:700px;object-fit:contain;object-position:left center}.case-figure figcaption{font-size:13px;color:var(--muted);line-height:1.6;margin-top:10px}.case-hero-image img{max-height:680px}.case-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.case-gallery img{height:360px;object-fit:contain}.case-code img{max-height:850px}.study-content h3{font-size:20px;margin:28px 0 8px}.study-content code{font-size:.9em;background:#f8edf2;padding:2px 5px;border-radius:4px}.case-diagram{display:flex;align-items:center;gap:12px;justify-content:space-between;background:#f8edf2;border:1px solid var(--line);border-radius:12px;padding:25px 18px;margin:24px 0 8px}.case-diagram div{flex:1;text-align:center;background:white;border:1px solid var(--line);border-radius:9px;padding:17px 8px;font-weight:600;color:#a9446c}.case-diagram small{display:block;font-weight:400;color:var(--muted);margin-top:6px}.case-diagram b{color:#a9446c}@media(max-width:700px){.case-gallery{grid-template-columns:1fr}.case-gallery img{height:auto;max-height:550px}.case-stats{grid-template-columns:1fr}.case-diagram{flex-direction:column}.case-diagram div{width:100%}.case-diagram b{transform:rotate(90deg)}}
+
+#bunny-farm {
+  margin-bottom:0;
+}
+
+.bunny-farm-art {
+  display:grid;
+  place-items:center;
+  min-height:clamp(185px,26vw,275px);
+  height:auto;
+  background:transparent;
+  padding-bottom:12px;
+}
+
+.bunny-farm-art img {
+  width:min(100%,420px);
+  height:auto;
+}
