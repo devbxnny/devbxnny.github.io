@@ -8,6 +8,25 @@
       devbxnny • Game Developer
     </title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+      #bunny-farm {
+        margin-bottom:0;
+      }
+
+      .bunny-farm-art {
+        display:grid;
+        place-items:center;
+        min-height:clamp(185px,26vw,275px);
+        height:auto;
+        background:transparent;
+        padding-bottom:12px;
+      }
+
+      .bunny-farm-art img {
+        width:min(100%,420px);
+        height:auto;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -141,7 +160,7 @@
           </h2>
         </div>
         <article id="bunny-farm" class="project">
-          <div class="art bunny-farm-art">
+          <div class="bunny-farm-art">
             <img src="assets/bunny-farm-logo.png" width="320" height="180" alt="">
           </div>
           <div>
